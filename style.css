@@ -16,9 +16,13 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 400px;
 }
-#box {
+#container {
   display: flex;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px outset rgba(41, 41, 41, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
 }
 input {
   padding: 10px;
@@ -61,16 +65,6 @@ img {
 h2 {
   margin: 10px 0;
 }
-.id_cont {
-  size: 5px;
-}
-.c {
+.box {
   margin: auto;
-  padding: 10px;
-  border-radius: 10px;
-}
-.c:hover {
-  transition: 2s;
-  background-color: rgba(128, 128, 128, 0.068);
-  border: 1px solid rgba(0, 0, 0, 0.774);
 }
