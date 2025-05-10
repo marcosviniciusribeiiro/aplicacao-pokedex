@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokédex</h1>
+      <div id="box">
+        <div class="c">
+          <h3>poke id:</h3>
+          <input
+            type="number"
+            id="pokemonId"
+            placeholder="id do Pokémon"
+            min="1"
+          />
+        </div>
+        <div class="c">
+          <h3>poke img:</h3>
+          <input
+            type="number"
+            name="contador"
+            id="id_cont"
+            class="id_cont"
+            min="1"
+            max="4"
+            size="5"
+            value="1"
+          />
+        </div>
+      </div>
+
+      <button onclick="getPokemon()">Buscar</button>
+      <div id="pokemonInfo" class="card"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
