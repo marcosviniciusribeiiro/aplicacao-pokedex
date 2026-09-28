@@ -1,2 +1,2 @@
 # aplicacao-pokedex
-aplicação utilizando REST API para manipulação de dados utilizando a PokeAPI
+Aplicação Web que utiliza REST API para manipular dados e exibir as informações dos pokemons de acordo com a (PokeAPI)[https://pokeapi.co]
